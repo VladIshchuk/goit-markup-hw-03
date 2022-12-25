@@ -228,6 +228,11 @@ padding: 12px 24px;
     font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
+margin-top: 32px;
+}
+
+.work-p{
+    margin-top: 8px;
 }
 
 .workes a{
