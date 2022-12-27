@@ -25,7 +25,6 @@ ul,ol{
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
-    align-items: center;
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -33,12 +32,12 @@ ul,ol{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body{
     font-family: "Roboto" , sans-serif;
-    width: 1470px;
 }
 
 .header-navi{
@@ -64,7 +63,7 @@ body{
     font-weight: 800;
     font-size: 18px;
     line-height: calc(24/18);
-    padding-right: 76px;
+    margin-right: 76px;
 }
 
 .links{
@@ -130,10 +129,10 @@ line-height:calc(24/16);
     font-weight: 700;
 font-size: 56px;
 line-height: calc(60/56);
-height: 120px;
 width: 494px;
 margin-right: auto;
 margin-left: auto;
+text-align: center;
 }
 
 .hero{
@@ -151,14 +150,14 @@ background-color:var(--iris-color);
 color: var(--white-color);
 height: 51px;
 width: 170px;
-font-family: "Roboto";
+font-family: inherit;
 cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: calc(24/16);
 border-radius: 4px;
 border: 0px;
-margin: 64px auto ;
+margin: 64px auto 0 ;
 display: block;
 }
 
@@ -179,12 +178,19 @@ line-height: calc(24/20);
 }
 
 .advantages{
-    width: 264px;
-    padding-right: 24px;
+    margin-right: 24px;
+}
+
+.advantages h3{
+    margin-bottom: 8px;
 }
 
 .advantages-punkts li {
     color: var(--navy-color);
+}
+
+.adv-t{
+    margin: 0;
 }
 
 .advantages-punkts p{
@@ -195,7 +201,7 @@ line-height: calc(24/16);
 }
 
 .Our-Spec{
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .what-doing{
@@ -225,7 +231,7 @@ text-align: center;
     font-weight: 700;
 font-size: 36px;
 line-height: calc(40/36);
-padding-bottom: 72px;
+margin-bottom: 72px;
 text-align: center;
 }
 
@@ -239,22 +245,21 @@ text-align: center;
     color: var(--navy-color);
 }
 
-.worklistt{
-    border: 1px solid #E7E9FC;  
-}
-
 .worklistt h3{
-    padding-top: 32px;
     text-align: center;
 }
 
 .worklistt p{
-    padding-top: 8px;
-    padding-bottom: 32px;
+    margin-top: 8px;
     text-align: center;
 }
+.worklistt img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
-.worklist h{
+.worklist h3{
     font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
@@ -265,6 +270,13 @@ line-height: calc(24/20);
     font-weight: 400;
 font-size: 16px;
 line-height: calc(24/16);
+}
+
+.div-container{
+    background-color: var(--white-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: 1px solid #E7E9FC; 
 }
 
 .footer-link :focus{
@@ -281,9 +293,8 @@ line-height: calc(24/16);
     font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
-    height: 72;
     width: 264px;
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 .footer{
